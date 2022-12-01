@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(Image/barbell-1839086_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar .logo .img {
+    width: 80px;
+    height: 70px;
+    color: white;
+}
+
+.logo {
+    margin-left: 4%;
+    margin-top: 14px;
+    text-align: center;
+    color: azure;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.list ul {
+    display: flex;
+    margin-top: 3%;
+    text-align: center;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    padding: 20px 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: beige;
+}
+
+.btn {
+    margin-top: 2%;
+    justify-content: space-between;
+}
+
+.btn button {
+    padding: 4px 13px;
+    margin: 10px 11px;
+    text-align: center;
+    background-color: transparent;
+    border: solid 2px white;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn button:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.home {
+    color: gray;
+}
+
+hr {
+    color: grey;
+}
+
+.join {
+    border: solid 2px white;
+    border-radius: 9px;
+    text-align: center;
+    width: 30%;
+    height: 300px;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.ex {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.inp {
+    display: grid;
+    justify-content: center;
+}
+
+.inp input {
+    height: 30px;
+    width: 290px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 7px;
+    border: none;
+}
+
+.inp .bsub {
+    height: 30px;
+    margin: 8px 0;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content {
+    margin-top: 15%;
+}
+
+@media only screen and (max-width: 972px) {
+    .list ul {
+        flex-direction: column;
+    }
+
+    .list ul li a {
+        font-size: 17px;
+    }
+
+    .logo .img {
+        justify-content: center;
+        text-align: center;
+    }
+
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .join {
+
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-bottom: 13px;
+
+
+    }
+
+
+    .inp {
+        text-align: center;
+    }
+
+    .inp input {
+        width: 100%;
+
+    }
+
+}
+
+
+
+@media only screen and (max-width:700px) {
+    .btn {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .ex {
+        font-size: 12px;
+    }
+
+
+
+}
+
+@media only screen and (max-width:500px) {
+    .join {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .list ul li a {
+        font-size: 22px;
+        opacity: 0.9;
+    }
+
+
+
+}
